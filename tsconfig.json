@@ -14,6 +14,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "primeng-wrapper": [
+        "dist/primeng-wrapper/primeng-wrapper",
+        "dist/primeng-wrapper"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [
